@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "rec_1790670866603_f4bb0",
+    "userId": "usr_sarah_1",
+    "borrowerName": "Dr. Sarah",
+    "createdAt": "2026-09-29T08:34:26.603Z",
+    "inputs": {
+      "loanBalance": 52000,
+      "income": 80000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 80,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 471,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 18840,
+        "monthsToForgiveness": 40,
+        "estimatedForgivenAmount": 44464,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 373,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 14920,
+        "monthsToForgiveness": 40,
+        "estimatedForgivenAmount": 46032,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 598,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 23920,
+        "monthsToForgiveness": 40,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $373/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670748329_6qhg8",
+    "userId": "usr_deploy_1",
+    "borrowerName": "deploy.test",
+    "createdAt": "2026-09-29T08:32:28.329Z",
+    "inputs": {
+      "loanBalance": 36400,
+      "income": 68000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 105,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 371,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 5565,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 34174,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 273,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 4095,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 34762,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 419,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 6285,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $273/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670228021_b198v",
+    "userId": "usr_claire_e2e",
+    "borrowerName": "claire.teacher",
+    "createdAt": "2026-09-29T08:23:48.021Z",
+    "inputs": {
+      "loanBalance": 48000,
+      "income": 75000,
+      "filingStatus": "married_filing_separately",
+      "familySize": 1,
+      "pslfPaymentsMade": 92,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": true,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 429,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 12012,
+        "monthsToForgiveness": 28,
+        "estimatedForgivenAmount": 43195.2,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 332,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9296,
+        "monthsToForgiveness": 28,
+        "estimatedForgivenAmount": 44281.6,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 552,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 15456,
+        "monthsToForgiveness": 28,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $332/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [
+      "Married Filing Separately (Spousal income exclusion)",
+      "PSLF Buyback Credit requested for administrative forbearance months"
+    ],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178455_c8nms",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.455Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178450_pw1w6",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.450Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178445_k1jds",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.445Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178440_tc46q",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.440Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178432_6dr9n",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.432Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178424_5jk34",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.424Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178418_1r78u",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.418Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178413_7652u",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.413Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178406_gdcef",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.406Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178400_ugxay",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.400Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178394_gp044",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.394Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178386_fl5yi",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.386Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670178374_84kr0",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:58.374Z",
+    "inputs": {
+      "loanBalance": 20000,
+      "income": 45000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 179,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 21480,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 11408,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 82,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 9840,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 16064,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 230,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 27600,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $82/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670173253_duhub",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:53.253Z",
+    "inputs": {
+      "loanBalance": 10000,
+      "income": 50000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 0,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 45
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 221,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 26520,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 123,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 14760,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 4096,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 115,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 13800,
+        "monthsToForgiveness": 120,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "Standard",
+    "ourPickRationale": "Standard. Since the hardship requirement was removed in December 2025, you qualify for Standard. It provides your lowest monthly obligation of $115/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the Standard application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "ready_to_submit",
+    "servicerName": "Aidvantage / MOHELA / Nelnet"
+  },
+  {
+    "id": "rec_1790670157740_w6ixs",
+    "userId": "usr_maya_105",
+    "borrowerName": "maya.nurse",
+    "createdAt": "2026-09-29T08:22:37.740Z",
+    "inputs": {
+      "loanBalance": 36400,
+      "income": 68000,
+      "filingStatus": "single",
+      "familySize": 1,
+      "pslfPaymentsMade": 105,
+      "hasPre2014Loans": false,
+      "isSelfEmployed": false,
+      "hasPslfBuyback": false,
+      "noticeDeadlineDays": 41
+    },
+    "plans": {
+      "ibr": {
+        "planName": "Income-Based Repayment",
+        "code": "IBR",
+        "monthlyPayment": 371,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 5565,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 34174,
+        "taxNotes": "PSLF forgiveness is 100% tax-free at federal level (IRC Sec 108(f))."
+      },
+      "rap": {
+        "planName": "Repayment Assistance Plan",
+        "code": "RAP",
+        "monthlyPayment": 273,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 4095,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 34762,
+        "taxNotes": "PSLF forgiveness is tax-free. Non-PSLF IDR forgiveness taxability depends on post-2025 extension rules."
+      },
+      "standard": {
+        "planName": "Standard Repayment (10-Year)",
+        "code": "Standard",
+        "monthlyPayment": 419,
+        "countsTowardPslf": true,
+        "totalBeforeForgiveness": 6285,
+        "monthsToForgiveness": 15,
+        "estimatedForgivenAmount": 0,
+        "taxNotes": "Standard 10-year pays full principal & interest. Counts toward PSLF only on Direct consolidated/original loans."
+      }
+    },
+    "ourPick": "RAP",
+    "ourPickRationale": "RAP. Since the hardship requirement was removed in December 2025, you qualify for RAP. It provides your lowest monthly obligation of $273/mo, every payment qualifies for PSLF, and the remainder will be forgiven tax-free.",
+    "watchOutWarning": "The studentaid.gov calculator may show Graduated as your cheapest option. Graduated payments do NOT count toward PSLF. Picking it freezes your forgiveness clock.",
+    "nextSteps": [
+      "1) Review the RAP application we've pre-filled with your exact numbers.",
+      "2) Sign and submit it through your loan servicer online portal or studentaid.gov.",
+      "3) Keep paying on your current schedule until the switch confirms."
+    ],
+    "complexCaseFlags": [],
+    "applicationStatus": "submitted",
+    "servicerName": "Aidvantage / MOHELA / Nelnet",
+    "submittedDate": "2026-09-29T08:22:48.395Z"
+  }
+]

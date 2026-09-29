@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Safety Net: Default-deny all operations
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions for lead submission
+    function isValidEmail(email) {
+      return email is string 
+        && email.size() >= 3 
+        && email.size() <= 254 
+        && email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$');
+    }
+
+    function isValidLead(data) {
+      return data.keys().hasAll(['email', 'createdAt', 'source'])
+        && data.keys().hasOnly(['email', 'createdAt', 'source', 'tier'])
+        && isValidEmail(data.email)
+        && data.createdAt is timestamp
+        && data.source is string && data.source.size() <= 100
+        && (!('tier' in data) || (data.tier is string && data.tier.size() <= 50));
+    }
+
+    // Leads collection: Public may create valid leads; no public read, update, or delete
+    match /leads/{leadId} {
+      allow create: if isValidLead(request.resource.data);
+      allow read, update, delete: if false;
+    }
+  }
+}

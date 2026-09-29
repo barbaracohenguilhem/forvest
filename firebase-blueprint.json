@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Lead": {
+      "title": "Lead",
+      "description": "Founding user email capture for Forvest waitlist",
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Borrower's email address",
+          "minLength": 3,
+          "maxLength": 254
+        },
+        "source": {
+          "type": "string",
+          "description": "CTA button or section source",
+          "maxLength": 100
+        },
+        "tier": {
+          "type": "string",
+          "description": "Selected pricing tier if chosen from pricing section",
+          "maxLength": 50
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when lead was submitted"
+        }
+      },
+      "required": ["email", "source", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/leads/{leadId}": {
+      "schema": "Lead",
+      "description": "Public waitlist leads collected with create-only access"
+    }
+  }
+}
